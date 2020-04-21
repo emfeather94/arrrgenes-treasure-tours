@@ -12,19 +12,24 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to main content</a></li>
+  </ul>
+
   <header role="banner">
     <div class="masthead grid grid-middle gutter">
       <h1 class="logo push-0 unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
         <i class="icon i-32 push-r-1-4"><img src="images/logo.svg" alt=""></i>
         <span class="logo-text giga icon-label text-left">Arrrgene’s Treasure Tours</span>
       </h1>
-      <nav class="nav unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2" role="navigation">
+      <nav class="nav unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2" role="navigation" id="nav">
         <ul class="list-group-inline mega push-0">
           <li><a class="ib gutter-1-4" href="#"><span>Tours</span></a></li>
           <li><a class="ib gutter-1-4" href="#"><span>Ships</span></a></li>
           <li><a class="ib gutter-1-4" href="#"><span>Tickets</span></a></li>
         </ul>
-      </div>
+      </nav>
     </div>
 
     <div>
@@ -39,7 +44,7 @@
     </div>
   </header>
 
-  <main role="main">
+  <main role="main" id="main">
     <div class="island">
       <div class="card embed embed-golden">
         <div class="card-content pin-c w-1 max-length gutter text-center">
@@ -52,9 +57,11 @@
     </div>
   </main>
 
-  <div class="footer micro text-center island-1-2">
-    <p class="push-0">© Arrrgene’s Treasure Tours</p>
-  </div>
+  <footer role="contentinfo">
+    <div class="footer micro text-center island-1-2">
+      <p class="push-0">© Arrrgene’s Treasure Tours</p>
+    </div>
+  </footer>
 
 </body>
 </html>
